@@ -1,0 +1,250 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #272728;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*NAV*/
+
+
+
+/*MAIN*/
+
+.main{
+color:white
+}
+
+main .container_hero{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+flex-direction: column;
+background-image: linear-gradient(
+    0deg,
+    rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)
+    ) 
+    ,url(coding-924920_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*PRESENTACION ARTICULE*/
+
+.presentacion{
+    background-color: #272728;
+}
+
+/*ESTUDIOS*/
+
+.estudios{
+    height: 750px;
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/*CONTACTO*/
+
+.contacto{
+    background-color: aqua;
+}
+
+
+/*FUENTES*/
+
+h1{
+    font-size: 34px;
+    padding-bottom: 5px;
+}
+
+h2{
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+button{
+    font-size: 16px;
+}
+
+.acerca_de_mi{
+    font-size: 34px;
+    color: #FFFFFF;
+    color: #47D16E;
+}
+
+.presentacion_texto{
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+h4{
+    font-size: 24px;
+    color: #47D16E;
+}
+
+.titulo_estudios{
+    font-size: 20px;
+}
+
+.estudios_descripcion{
+    font: size 14px;
+}
+
+.nombre{
+    color: #47D16E;
+}
+
+h5{
+    font-size: 20px;
+    padding: 7px 0px;
+}
+
+.correo{
+    color: #47D16E;
+}
+
+/*FUENTEs*/
+
+/*BOTONES*/
+button{
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 5);
+    padding: 10px 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,5);
+    background-color: #47D16E;
+    color: white;
+    margin: 5px 5px
+}
+
+button:hover{
+    background-color: #1f9140;
+}
+/*BOTONES*/
+
+
+
+/*PRESENTACION*/
+
+.presentacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 1000px;
+    width: 100%;
+}
+
+.container_presentacion{
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+}
+
+.foto_perfil{
+    width: 400px;
+padding-bottom: 15px;
+padding-top: 15px;
+    height: auto;
+    border-radius: 300px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,5);
+}
+
+.presentacion_texto{
+    margin: 12px 0px;
+}
+
+.boton_acerca_de_mi{
+    margin-top: 15px;
+}
+
+
+
+/*PRESENTACION*/
+
+
+/*MIS ESTUDIOS*/
+
+h4{
+    padding-bottom: 15px;
+}
+
+.estudios{
+height: 750px
+
+}
+
+.container_estudios{
+    display: flex;
+
+}
+
+.estudios_facultad{
+    background-color: #191919;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,5);
+    
+}
+
+.instituto{
+    background-color: #191919;
+    padding: 10px 0px;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,5);
+}
+
+.oracle{
+    border-radius: 10px;
+    background-color: #191919;
+    margin-top: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,5);
+}
+
+.titulo_estudios{
+    color: #FFFFFF;
+
+}
+
+.estudios_descripcion{
+    color: #FFFFFF;
+}
+
+/*MIS ESTUDIOS*/
+
+/*CONTACTO*/
+
+.contacto_container{
+    height: 500px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h6{
+    font-size: 16px;
+}
+
+
+/*CONTACTO*/
