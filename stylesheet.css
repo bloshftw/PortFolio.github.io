@@ -177,6 +177,47 @@ padding-top: 15px;
 /*PRESENTACION*/
 
 
+/*REDES*/
+.container_redes{
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container_redes ul {
+
+width: 300px;
+display: flex;
+text-align: center;
+justify-content:space-between
+}
+
+.container_redes ul li {
+
+display: inline-block;
+margin: 0px 5px;
+width: 50px;
+height: 50px;
+text-align: center;
+}
+
+.container_redes ul li a {
+
+display: block;
+padding: 0px 10px;
+background-color: #FFFFFF;
+color:#272728;
+line-height: 50px;
+font-size: 1.2em;
+box-shadow: 0 3px 5px 0px rgba(0, 0, 0, 0.8);
+}
+
+
+
+/*REDES*/
+
 /*MIS ESTUDIOS*/
 
 h4{
